@@ -4,5 +4,5 @@ const JSX = (
         <p>Lets render this to the DOM</p>
     </div>
 );
-
-ReactDOM.render(JSX, document.getElementById('challenge-node'))
+//open comment
+//ReactDOM.render(JSX, document.getElementById('challenge-node'))
