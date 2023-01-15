@@ -2,7 +2,8 @@ function randomFraction() {
 
     // Only change code below this line
 
-    return Math.random(1,2);
+    console.log(Math.random(3));
 
     // Only change code above this line
 }
+randomFraction()
