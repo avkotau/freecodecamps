@@ -11,20 +11,11 @@ function countdown(n) {
     }
 }
 
-// or
-//function countdown(n) {
-//   if (n < 1) {
-//     return [];
-//   } else {
-//     const arr = countdown(n - 1);
-//     arr.splice(0, 0, n);
-//     return arr;
-//   }
-// }
 //or
-//function countdown(n){
-//    return n < 1 ? [] : [n].concat(countdown(n - 1));
+// function countdown(n){
+//    return n < 1 ? [] : [n].concat(countdown(n - 1)) ;
 // }
+
 //or
 //function countdown(n){
 //    return n < 1 ? [] : [n, ...countdown(n - 1)];
