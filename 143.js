@@ -5,7 +5,7 @@ let username = "JACK";
 // let username = "RegexGuru";
 // let username = "Z97";
 // let username = "AB1";
-let userCheck = /^A-z+?\w/; // Change this line
 
+let userCheck = /^[a-z]([0-9]{2,}|[a-z]+\d*)$/i; // Change this line
 let result = userCheck.test(username);
 console.log(result)
