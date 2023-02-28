@@ -8,7 +8,7 @@ function mutation(arr) {
      console.log(true)
 }
 
-mutation(["Hello", "hey"]); //false
+mutation(["Hello", "hey"]) //false
 mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"]) // true.
 mutation(["hello", "Hello"]) // true.
 mutation(["voodoo", "no"]) // false.
