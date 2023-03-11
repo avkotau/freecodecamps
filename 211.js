@@ -5,7 +5,6 @@ function Bird(name) {
 
 let canary = new Bird("Tweety");
 let ownProps = [];
-// Only change code below this line
 
 for (let property in canary) {
     if(canary.hasOwnProperty(property)) {
