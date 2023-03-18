@@ -11,4 +11,5 @@ Dog.prototype = {
     describe: function() {
 
     }
+
 };
